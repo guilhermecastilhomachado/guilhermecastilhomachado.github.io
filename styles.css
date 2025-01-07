@@ -1,9 +1,65 @@
-h1 {
-    text-align: center;
+body{
+    width: 60%;
+    margin: 0 auto;
+    padding: 2% 0;
+    background-color: rgb(198, 253, 235);
 }
 
-#emBreve {
+main{
+    border-radius: 10px;
+}
+
+.tituloPrimario{
+    color: blue;
+    text-align: center;
+    font-size: 45px;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+#corpoPrincipal{
+    background-color: white;
+}
+
+section > a{
+    color: rgb(255, 255, 255);
+    background-color: red;
+    font-size: 21px;
+}
+
+nav{
+    margin: 0% -50% 0 -50%;
+    padding: 1px 16px;
+    background-color: #83faa7;
+    border: 5px solid rgb(255, 209, 123);
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav ul{
+    text-align: center;
+    padding: 8px;
+    margin: 10px;
+    width: 100%;
+}
+
+nav ul li{
+    display: inline-flex;
+}
+
+nav a{
+    width: 500px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+nav a:hover{
+    background-color: white;
+    margin: auto;
     color: red;
-    font-weight: bold;
-    text-align: center
 }
